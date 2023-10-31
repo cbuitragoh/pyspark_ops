@@ -1,0 +1,11 @@
+# csv files
+*.csv
+
+#ml flow runs
+mlruns/**
+
+#cache folders
+.pytest_cache
+__pycache__
+
+
