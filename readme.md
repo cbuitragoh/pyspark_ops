@@ -16,6 +16,10 @@ replace `year` with your year of interest.
 (You can collect data from multiple years),
 then put it in the data folder.
 
+Get the data path of data asset uri_file that 
+created with asset.yml file in setup step and add
+it in: inputs > training_data > path, of job.yml file.
+
 Then run job.yml and finally monitoring
 the execution and results.</p>
 

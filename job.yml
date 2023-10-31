@@ -15,8 +15,8 @@ conf:
 experiment_name: "Spark_Taxis_Clf"
 inputs:
   training_data:
-    type: uri_folder 
-    path: azureml:<PATH_TO_YOUR_DATA>
+    type: uri_file 
+    path: azureml:<PATH_YOUR_FILE_DATA>
     mode: direct
   app_name: "sparkClassifier"
 
